@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script>
+         function validate(){
+            var email = document.getElementsByName("email")[0].value.length;
+            var pass = document.getElementsByName("pass")[0].value.length;
+            
+            if(email>=2 && pass >= 1){
+                return true;
+            }else{
+                return false;
+            }   
+         }   
+          
+        </script>
+    </head>
+    <body>
+        <div>
+          <form method="post" onsubmit="return validate();" action="login.jsp">
+              
+              <div class="row">
+                  <div class="left">
+                      <label for="left">email</label>
+                  </div>
+                  <div class="right">
+                      <input type="text" name="email">    
+                  </div>
+              </div>
+              
+              <div class="row">
+                  <div class="left">
+                      <label for="left">password</label>
+                  </div>
+                  <div class="right">
+                      <input type="text" name="pass">    
+                  </div>
+              </div>
+              
+              <input type="submit" value="Login" class="center">
+          </form>    
+        </div>
+    </body>
+</html>

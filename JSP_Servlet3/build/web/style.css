@@ -1,0 +1,27 @@
+body{
+  background-color: skyblue;
+}
+
+.mainForm{
+  padding-left:  180px;
+  padding-top: 30px;
+}
+
+.left{
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+
+.right{
+  float: left;
+  width: 75%;
+  margin-top: 5px;
+}
+
+.center{
+  float: left;
+  padding: 10px 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}

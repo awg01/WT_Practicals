@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<catlog>
+<student>
+<firstname>Rushikesh</firstname>
+<lastname>Barole</lastname>
+<email>rushikeshbarole1998@gmail.com</email>
+<password>Rushikesh123</password>
+<mobile_no>776897511</mobile_no>
+<dob>23-03-1998</dob>
+
+</student>
+<student>
+<firstname>suraj</firstname>
+<lastname>gore</lastname>
+<email>gore.banti@gmail.com</email>
+<password>gore123</password>
+<mobile_no>776897511</mobile_no>
+<dob>23-03-1999</dob>
+
+</student>
+
+</catlog>
